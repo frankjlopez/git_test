@@ -57,7 +57,7 @@ function verifyInput (input) {
 
 function compare (userChoice, compChoice) {
   if (userChoice == compChoice) {
-    console.log(`No winners. Both players chose ${userChoice}`);
+    console.log(`No points  . Both players chose ${userChoice}`);
   } else if ((userChoice == 'rock') && (compChoice == 'scissors')) {
     console.log(`Nice! ${userChoice} beats ${compChoice}`);
     userPoints++;
